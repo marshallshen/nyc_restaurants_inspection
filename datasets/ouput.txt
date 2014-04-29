@@ -1,0 +1,132 @@
+==Frequent itemsets (min_sup=0.5)
+frozenset(['occasional incidents']) support: 0.910260245289
+frozenset(['Street Match']) support: 0.900089739755
+frozenset(['occasional incidents', 'Street Match']) support: 0.822614418187
+frozenset(['MANHATTAN']) support: 0.820520490577
+frozenset(['Restaurant/Bar/Deli/Bakery']) support: 0.815734370326
+frozenset(['Unenclosed']) support: 0.804965599761
+frozenset(['not recent']) support: 0.791205504038
+frozenset(['occasional incidents', 'MANHATTAN']) support: 0.761890517499
+frozenset(['MANHATTAN', 'Street Match']) support: 0.740652108884
+frozenset(['occasional incidents', 'Unenclosed']) support: 0.732874663476
+frozenset(['occasional incidents', 'Restaurant/Bar/Deli/Bakery']) support: 0.727191145678
+frozenset(['not recent', 'Street Match']) support: 0.72419982052
+frozenset(['Street Match', 'Unenclosed']) support: 0.722704157942
+frozenset(['not recent', 'occasional incidents']) support: 0.722105892911
+frozenset(['Restaurant/Bar/Deli/Bakery', 'Street Match']) support: 0.716422375112
+frozenset(['occasional incidents', 'MANHATTAN', 'Street Match']) support: 0.69009871373
+frozenset(['MANHATTAN', 'Unenclosed']) support: 0.664672449895
+frozenset(['not recent', 'occasional incidents', 'Street Match']) support: 0.662578522285
+frozenset(['occasional incidents', 'Unenclosed', 'Street Match']) support: 0.660783727191
+frozenset(['Restaurant/Bar/Deli/Bakery', 'Unenclosed']) support: 0.656595871971
+frozenset(['not recent', 'MANHATTAN']) support: 0.655698474424
+frozenset(['occasional incidents', 'Restaurant/Bar/Deli/Bakery', 'Street Match']) support: 0.639844451092
+frozenset(['Restaurant/Bar/Deli/Bakery', 'MANHATTAN']) support: 0.639545318576
+frozenset(['not recent', 'Unenclosed']) support: 0.639545318576
+frozenset(['not recent', 'Restaurant/Bar/Deli/Bakery']) support: 0.638049655998
+frozenset(['occasional incidents', 'MANHATTAN', 'Unenclosed']) support: 0.615016452288
+frozenset(['not recent', 'occasional incidents', 'MANHATTAN']) support: 0.613819922226
+frozenset(['not recent', 'MANHATTAN', 'Street Match']) support: 0.601256356566
+frozenset(['Unenclosed', 'MANHATTAN', 'Street Match']) support: 0.598265031409
+frozenset(['occasional incidents', 'Restaurant/Bar/Deli/Bakery', 'Unenclosed']) support: 0.585103200718
+frozenset(['not recent', 'occasional incidents', 'Unenclosed']) support: 0.583308405624
+frozenset(['not recent', 'Street Match', 'Unenclosed']) support: 0.582111875561
+frozenset(['occasional incidents', 'Restaurant/Bar/Deli/Bakery', 'MANHATTAN']) support: 0.580915345498
+frozenset(['Restaurant/Bar/Deli/Bakery', 'Street Match', 'Unenclosed']) support: 0.574932695184
+frozenset(['not recent', 'Restaurant/Bar/Deli/Bakery', 'Street Match']) support: 0.571343104996
+frozenset(['not recent', 'Restaurant/Bar/Deli/Bakery', 'occasional incidents']) support: 0.569249177386
+frozenset(['Street Match', 'not recent', 'occasional incidents', 'MANHATTAN']) support: 0.56476218965
+frozenset(['Restaurant/Bar/Deli/Bakery', 'MANHATTAN', 'Street Match']) support: 0.559976069399
+frozenset(['Unenclosed', 'Street Match', 'occasional incidents', 'MANHATTAN']) support: 0.555788214179
+frozenset(['not recent', 'MANHATTAN', 'Unenclosed']) support: 0.534250673048
+frozenset(['Street Match', 'Unenclosed', 'not recent', 'occasional incidents']) support: 0.532455877954
+frozenset(['Restaurant/Bar/Deli/Bakery', 'MANHATTAN', 'Unenclosed']) support: 0.518994914747
+frozenset(['not recent', 'Restaurant/Bar/Deli/Bakery', 'Unenclosed']) support: 0.517200119653
+frozenset(['Restaurant/Bar/Deli/Bakery', 'Unenclosed', 'Street Match', 'occasional incidents']) support: 0.513311396949
+frozenset(['Restaurant/Bar/Deli/Bakery', 'Street Match', 'not recent', 'occasional incidents']) support: 0.50972180676
+frozenset(['Restaurant/Bar/Deli/Bakery', 'Street Match', 'occasional incidents', 'MANHATTAN']) support: 0.509422674245
+frozenset(['not recent', 'Restaurant/Bar/Deli/Bakery', 'MANHATTAN']) support: 0.504935686509
+==High-confidence association rules (min_conf=0.8)
+frozenset(['not recent', 'MANHATTAN', 'Street Match'])-->frozenset(['occasional incidents']) support: 0.56476218965 confidence: 0.939303482587
+frozenset(['not recent', 'MANHATTAN'])-->frozenset(['occasional incidents']) support: 0.613819922226 confidence: 0.936131386861
+frozenset(['MANHATTAN', 'Street Match'])-->frozenset(['occasional incidents']) support: 0.69009871373 confidence: 0.931744749596
+frozenset(['Street Match', 'Unenclosed', 'MANHATTAN'])-->frozenset(['occasional incidents']) support: 0.555788214179 confidence: 0.929
+frozenset(['MANHATTAN'])-->frozenset(['occasional incidents']) support: 0.761890517499 confidence: 0.928545388261
+frozenset(['MANHATTAN', 'Unenclosed'])-->frozenset(['occasional incidents']) support: 0.615016452288 confidence: 0.925292529253
+frozenset(['not recent', 'occasional incidents', 'MANHATTAN'])-->frozenset(['Street Match']) support: 0.56476218965 confidence: 0.92007797271
+frozenset(['not recent', 'occasional incidents'])-->frozenset(['Street Match']) support: 0.662578522285 confidence: 0.917564208782
+frozenset(['not recent', 'MANHATTAN'])-->frozenset(['Street Match']) support: 0.601256356566 confidence: 0.91697080292
+frozenset(['not recent'])-->frozenset(['Street Match']) support: 0.72419982052 confidence: 0.915311909263
+frozenset(['not recent', 'Street Match'])-->frozenset(['occasional incidents']) support: 0.662578522285 confidence: 0.914911193722
+frozenset(['not recent', 'Unenclosed', 'Street Match'])-->frozenset(['occasional incidents']) support: 0.532455877954 confidence: 0.914696813977
+frozenset(['Street Match', 'Unenclosed'])-->frozenset(['occasional incidents']) support: 0.660783727191 confidence: 0.914321192053
+frozenset(['Street Match'])-->frozenset(['occasional incidents']) support: 0.822614418187 confidence: 0.913924891991
+frozenset(['not recent', 'occasional incidents', 'Unenclosed'])-->frozenset(['Street Match']) support: 0.532455877954 confidence: 0.912820512821
+frozenset(['not recent'])-->frozenset(['occasional incidents']) support: 0.722105892911 confidence: 0.912665406427
+frozenset(['not recent', 'Unenclosed'])-->frozenset(['occasional incidents']) support: 0.583308405624 confidence: 0.912067352666
+frozenset(['Unenclosed'])-->frozenset(['occasional incidents']) support: 0.732874663476 confidence: 0.91044221479
+frozenset(['not recent', 'Unenclosed'])-->frozenset(['Street Match']) support: 0.582111875561 confidence: 0.910196445276
+frozenset(['Restaurant/Bar/Deli/Bakery', 'MANHATTAN', 'Street Match'])-->frozenset(['occasional incidents']) support: 0.509422674245 confidence: 0.909722222222
+frozenset(['Restaurant/Bar/Deli/Bakery', 'MANHATTAN'])-->frozenset(['occasional incidents']) support: 0.580915345498 confidence: 0.908325537886
+frozenset(['occasional incidents', 'MANHATTAN'])-->frozenset(['Street Match']) support: 0.69009871373 confidence: 0.905771495878
+frozenset(['occasional incidents'])-->frozenset(['Street Match']) support: 0.822614418187 confidence: 0.903713440684
+frozenset(['occasional incidents', 'MANHATTAN', 'Unenclosed'])-->frozenset(['Street Match']) support: 0.555788214179 confidence: 0.903696498054
+frozenset(['MANHATTAN'])-->frozenset(['Street Match']) support: 0.740652108884 confidence: 0.902661319723
+frozenset(['occasional incidents', 'Unenclosed'])-->frozenset(['Street Match']) support: 0.660783727191 confidence: 0.901632653061
+frozenset(['MANHATTAN', 'Unenclosed'])-->frozenset(['Street Match']) support: 0.598265031409 confidence: 0.900090009001
+frozenset(['Unenclosed'])-->frozenset(['Street Match']) support: 0.722704157942 confidence: 0.897807506503
+frozenset(['not recent', 'Restaurant/Bar/Deli/Bakery'])-->frozenset(['Street Match']) support: 0.571343104996 confidence: 0.89545241444
+frozenset(['not recent', 'Restaurant/Bar/Deli/Bakery', 'occasional incidents'])-->frozenset(['Street Match']) support: 0.50972180676 confidence: 0.895428271151
+frozenset(['Restaurant/Bar/Deli/Bakery', 'Street Match'])-->frozenset(['occasional incidents']) support: 0.639844451092 confidence: 0.893110647182
+frozenset(['Restaurant/Bar/Deli/Bakery', 'Street Match', 'Unenclosed'])-->frozenset(['occasional incidents']) support: 0.513311396949 confidence: 0.892819979188
+frozenset(['not recent', 'Restaurant/Bar/Deli/Bakery'])-->frozenset(['occasional incidents']) support: 0.569249177386 confidence: 0.892170651664
+frozenset(['not recent', 'Restaurant/Bar/Deli/Bakery', 'Street Match'])-->frozenset(['occasional incidents']) support: 0.50972180676 confidence: 0.892146596859
+frozenset(['Restaurant/Bar/Deli/Bakery'])-->frozenset(['occasional incidents']) support: 0.727191145678 confidence: 0.891455812248
+frozenset(['Restaurant/Bar/Deli/Bakery', 'Unenclosed'])-->frozenset(['occasional incidents']) support: 0.585103200718 confidence: 0.891116173121
+frozenset(['occasional incidents', 'Restaurant/Bar/Deli/Bakery'])-->frozenset(['Street Match']) support: 0.639844451092 confidence: 0.879884821061
+frozenset(['Restaurant/Bar/Deli/Bakery'])-->frozenset(['Street Match']) support: 0.716422375112 confidence: 0.878254492116
+frozenset(['Restaurant/Bar/Deli/Bakery', 'occasional incidents', 'Unenclosed'])-->frozenset(['Street Match']) support: 0.513311396949 confidence: 0.877300613497
+frozenset(['Restaurant/Bar/Deli/Bakery', 'MANHATTAN', 'occasional incidents'])-->frozenset(['Street Match']) support: 0.509422674245 confidence: 0.87693099897
+frozenset(['Restaurant/Bar/Deli/Bakery', 'Unenclosed'])-->frozenset(['Street Match']) support: 0.574932695184 confidence: 0.87562642369
+frozenset(['Restaurant/Bar/Deli/Bakery', 'MANHATTAN'])-->frozenset(['Street Match']) support: 0.559976069399 confidence: 0.875584658559
+frozenset(['not recent', 'occasional incidents', 'Street Match'])-->frozenset(['MANHATTAN']) support: 0.56476218965 confidence: 0.85237020316
+frozenset(['not recent', 'occasional incidents'])-->frozenset(['MANHATTAN']) support: 0.613819922226 confidence: 0.850041425021
+frozenset(['occasional incidents', 'Street Match', 'Unenclosed'])-->frozenset(['MANHATTAN']) support: 0.555788214179 confidence: 0.841104572205
+frozenset(['occasional incidents', 'Unenclosed'])-->frozenset(['MANHATTAN']) support: 0.615016452288 confidence: 0.839183673469
+frozenset(['occasional incidents', 'Street Match'])-->frozenset(['MANHATTAN']) support: 0.69009871373 confidence: 0.838909090909
+frozenset(['occasional incidents'])-->frozenset(['MANHATTAN']) support: 0.761890517499 confidence: 0.837002957608
+frozenset(['not recent', 'Unenclosed'])-->frozenset(['MANHATTAN']) support: 0.534250673048 confidence: 0.835360149673
+frozenset(['not recent', 'Street Match'])-->frozenset(['MANHATTAN']) support: 0.601256356566 confidence: 0.830235439901
+frozenset(['not recent'])-->frozenset(['MANHATTAN']) support: 0.655698474424 confidence: 0.828733459357
+frozenset(['Street Match', 'Unenclosed'])-->frozenset(['MANHATTAN']) support: 0.598265031409 confidence: 0.827814569536
+frozenset(['Unenclosed'])-->frozenset(['MANHATTAN']) support: 0.664672449895 confidence: 0.825715347454
+frozenset(['Street Match'])-->frozenset(['MANHATTAN']) support: 0.740652108884 confidence: 0.822864739116
+frozenset(['occasional incidents', 'MANHATTAN', 'Street Match'])-->frozenset(['not recent']) support: 0.56476218965 confidence: 0.818378846987
+frozenset(['Unenclosed'])-->frozenset(['Restaurant/Bar/Deli/Bakery']) support: 0.656595871971 confidence: 0.815681902638
+frozenset(['not recent', 'MANHATTAN'])-->frozenset(['Unenclosed']) support: 0.534250673048 confidence: 0.814781021898
+frozenset(['MANHATTAN', 'Street Match'])-->frozenset(['not recent']) support: 0.601256356566 confidence: 0.811793214863
+frozenset(['Restaurant/Bar/Deli/Bakery', 'MANHATTAN'])-->frozenset(['Unenclosed']) support: 0.518994914747 confidence: 0.811506080449
+frozenset(['not recent', 'Restaurant/Bar/Deli/Bakery'])-->frozenset(['Unenclosed']) support: 0.517200119653 confidence: 0.810595405532
+frozenset(['MANHATTAN'])-->frozenset(['Unenclosed']) support: 0.664672449895 confidence: 0.810061975939
+frozenset(['not recent', 'Unenclosed'])-->frozenset(['Restaurant/Bar/Deli/Bakery']) support: 0.517200119653 confidence: 0.808699719364
+frozenset(['not recent'])-->frozenset(['Unenclosed']) support: 0.639545318576 confidence: 0.80831758034
+frozenset(['not recent', 'occasional incidents'])-->frozenset(['Unenclosed']) support: 0.583308405624 confidence: 0.807787903894
+frozenset(['MANHATTAN', 'Street Match'])-->frozenset(['Unenclosed']) support: 0.598265031409 confidence: 0.807754442649
+frozenset(['occasional incidents', 'MANHATTAN'])-->frozenset(['Unenclosed']) support: 0.615016452288 confidence: 0.807224185316
+frozenset(['not recent'])-->frozenset(['Restaurant/Bar/Deli/Bakery']) support: 0.638049655998 confidence: 0.806427221172
+frozenset(['occasional incidents', 'Unenclosed', 'Street Match'])-->frozenset(['not recent']) support: 0.532455877954 confidence: 0.805794477139
+frozenset(['occasional incidents', 'MANHATTAN'])-->frozenset(['not recent']) support: 0.613819922226 confidence: 0.805653710247
+frozenset(['Unenclosed', 'Street Match'])-->frozenset(['not recent']) support: 0.582111875561 confidence: 0.805463576159
+frozenset(['occasional incidents', 'Street Match'])-->frozenset(['not recent']) support: 0.662578522285 confidence: 0.805454545455
+frozenset(['occasional incidents', 'MANHATTAN', 'Street Match'])-->frozenset(['Unenclosed']) support: 0.555788214179 confidence: 0.805374945817
+frozenset(['occasional incidents'])-->frozenset(['Unenclosed']) support: 0.732874663476 confidence: 0.805126519882
+frozenset(['Restaurant/Bar/Deli/Bakery'])-->frozenset(['Unenclosed']) support: 0.656595871971 confidence: 0.804913824716
+frozenset(['occasional incidents', 'Restaurant/Bar/Deli/Bakery'])-->frozenset(['Unenclosed']) support: 0.585103200718 confidence: 0.804607157548
+frozenset(['Street Match'])-->frozenset(['not recent']) support: 0.72419982052 confidence: 0.804586241276
+frozenset(['not recent', 'Street Match'])-->frozenset(['Unenclosed']) support: 0.582111875561 confidence: 0.80380008261
+frozenset(['MANHATTAN', 'Unenclosed'])-->frozenset(['not recent']) support: 0.534250673048 confidence: 0.803780378038
+frozenset(['not recent', 'occasional incidents', 'Street Match'])-->frozenset(['Unenclosed']) support: 0.532455877954 confidence: 0.803611738149
+frozenset(['occasional incidents', 'Street Match'])-->frozenset(['Unenclosed']) support: 0.660783727191 confidence: 0.803272727273
+frozenset(['Street Match'])-->frozenset(['Unenclosed']) support: 0.722704157942 confidence: 0.802924559654
+frozenset(['Restaurant/Bar/Deli/Bakery', 'Street Match'])-->frozenset(['Unenclosed']) support: 0.574932695184 confidence: 0.802505219207
+frozenset(['Restaurant/Bar/Deli/Bakery', 'occasional incidents', 'Street Match'])-->frozenset(['Unenclosed']) support: 0.513311396949 confidence: 0.802244039271
