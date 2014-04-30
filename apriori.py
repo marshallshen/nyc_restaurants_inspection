@@ -30,16 +30,19 @@ def processRawOutputFile(rawDataFile, minSupport, minConfidence):
     sorted_support_rows = sorted(support_rows, key=itemgetter(2), reverse=True)
     sorted_confidence_rows = sorted(confidence_rows, key=itemgetter(3), reverse=True)
 
-    f = open('datasets/ouput.txt', 'wr')
+    f = open('ouput.txt', 'wr')
+    f.write("\n\n")
     f.write('==Frequent itemsets (min_sup=' + str(minSupport) + ')\n')
     for support_row in sorted_support_rows:
         f.write(support_row[1] + ' support: ' + support_row[2] + '\n')
+    f.write("\n\n")
     f.write('==High-confidence association rules (min_conf=' + str(minConfidence) + ')\n')
     for confidence_row in sorted_confidence_rows:
         f.write(confidence_row[1] + ' support: ' + confidence_row[2] + ' confidence: ' + confidence_row[3] + '\n')
+    f.write("\n\n")
     f.close()
 
-    print "Finish generating rules, please see datasets/output.txt"
+    print "Finish generating rules, please check output.txt"
 
 #Choose frozen set as default data structure
 #So we can use the set as the key in dict
