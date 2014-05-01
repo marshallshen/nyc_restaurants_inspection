@@ -34,7 +34,8 @@ def processRawOutputFile(rawDataFile, minSupport, minConfidence):
     f.write("\n\n")
     f.write('==Frequent itemsets (min_sup=' + str(minSupport) + ')\n')
     for support_row in sorted_support_rows:
-        f.write(support_row[1] + ' support: ' + support_row[2] + '\n')
+        sanitized_row = support_row[1].split("frozenset")[1].strip("(").strip(")")
+        f.write(sanitized_row + ' support: ' + support_row[2] + '\n')
     f.write("\n\n")
     f.write('==High-confidence association rules (min_conf=' + str(minConfidence) + ')\n')
     for confidence_row in sorted_confidence_rows:
@@ -121,7 +122,9 @@ def calcConf(freqSet, H, supportData, brl, minConf=0.7):
         conf = supportData[freqSet]/supportData[freqSet-conseq] #calc confidence
         if conf >= minConf and len(conseq) == 1: # only output rules with only 1 item on the RHS 
             f = open('datasets/raw_output.txt', 'a+b')
-            f.write(str('confidence' + ';' + str(freqSet-conseq) + '-->' + str(conseq) + ';' + str(supportData[freqSet]) + ';' + str(conf) + "\n"))
+            sanitized_freqSet_conseq = str(freqSet-conseq).split("frozenset")[1].strip("(").strip(")")
+            sanitized_conseq = str(conseq).split("frozenset")[1].strip("(").strip(")")
+            f.write(str('confidence' + ';' + sanitized_freqSet_conseq + '-->' + sanitized_conseq + ';' + str(supportData[freqSet]) + ';' + str(conf) + "\n"))
             f.close()
 
             brl.append((freqSet-conseq, conseq, conf))

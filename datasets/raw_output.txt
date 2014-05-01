@@ -3,5 +3,5 @@ support;frozenset(['diary']);0.75; nil
 support;frozenset(['pen']);1.0; nil
 support;frozenset(['pen', 'diary']);0.75; nil
 support;frozenset(['pen', 'ink']);0.75; nil
-confidence;frozenset(['ink'])-->frozenset(['pen']);0.75;1.0
-confidence;frozenset(['diary'])-->frozenset(['pen']);0.75;1.0
+confidence;['ink']-->['pen'];0.75;1.0
+confidence;['diary']-->['pen'];0.75;1.0
