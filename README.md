@@ -1,13 +1,13 @@
 # NYC restaurant inspection
-By Fengyuan Shen
-UID: fs2458
+Data mining upon NYC restaurant open data
 
-## This repo includes:
-1. Apriori algoithm in Paython
+## What are inlcuded:
+1. Apriori algoithm in Python
 2. INTEGRATED-DATASET under folder "datasets"
 3. Original datasets from NYC open data website
 3. "example_run.txt" that includes a sample result
 4. A detailed report that explains how data is processed, algorithm is applied, and analysis of some interesting association rules.
+5. [Blogpost](BLOG.md) on how the analysis of the NYC restaurant data
 
 ## Usage
 
